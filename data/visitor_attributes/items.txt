@@ -1,0 +1,31 @@
+Dueruem;FOOD
+MedKit;MEDICINE
+Schraubendreher;TOOL
+Knife;WEAPON
+Pistol;WEAPON
+Pizza Slice;FOOD
+Cold Doener;FOOD
+Expired Sandwich;FOOD
+Energy Drink;FOOD
+Mystery Soup;FOOD
+Bandage;MEDICINE
+Painkillers;MEDICINE
+Vitamin Gummies;MEDICINE
+Questionable Syrup;MEDICINE
+Hammer;TOOL
+Wrench;TOOL
+Duct Tape;TOOL
+Zip Ties;TOOL
+Flashlight;TOOL
+Broken Bottle;WEAPON
+Tatooine Dueruem;FOOD
+Ewok;FOOD
+Wookiee Wrap;FOOD
+Blue Milk;FOOD
+Spicy Dueruem;FOOD
+Bacta Sauce;MEDICINE
+Force Vitamin Shot;MEDICINE
+Hydrospanner;TOOL
+Astromech;TOOL
+Lightsaber;WEAPON
+Blaster Pistol;WEAPON

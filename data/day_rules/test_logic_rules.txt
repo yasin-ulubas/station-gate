@@ -1,0 +1,5 @@
+current_year=2000
+require_doc=1
+forbid_weapons=1
+min_level=1
+max_level=5

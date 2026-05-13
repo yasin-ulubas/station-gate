@@ -1,0 +1,7 @@
+current_year=2167
+min_level=1
+max_level=5
+require_doc=1
+night_mode=0
+emergency_mode=0
+forbid_weapons=1
