@@ -1,4 +1,4 @@
-# station_gate
+# station-gate
 
 🚧 Border Control Terminal — C Terminal Game
 Ein terminalbasiertes Entscheidungs- und Logikspiel inspiriert von Kontrollsystemen wie Papers, Please.
