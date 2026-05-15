@@ -54,6 +54,7 @@ ui	            Terminaldarstellung & Eingabe
 stats	          Statistiksystem
 
 
-👨‍💻 Autoren
-Student der Technischen Universität Hamburg
+👨‍💻 Autoren:
+Studenten der Technischen Universität Hamburg
+
 Bennet, Micka und Yasin
