@@ -42,27 +42,6 @@ Eine falsche Entscheidung kostet Leben.
 - Modularer Aufbau mit Header-/Source-Trennung
 
 
-🏗️ Projektstruktur
-├── main.c
-├── game.c
-├── generator.c
-├── validator.c
-├── rules.c
-├── ui.c
-├── assets.c
-├── stats.c
-│
-├── *.h
-│
-├── data/
-│   ├── screens/
-│   ├── day_rules/
-│   ├── visitor_attributes/
-│   └── visitors_ascii/
-│
-└── test_logic.c
-
-
 🔹 Modulare Architektur
 Modul	          Verantwortung
 
