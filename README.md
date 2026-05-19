@@ -1,60 +1,93 @@
 # station-gate
 
-🚧 Border Control Terminal — C Terminal Game
-Ein terminalbasiertes Entscheidungs- und Logikspiel inspiriert von Kontrollsystemen wie Papers, Please.
-Der Spieler übernimmt die Rolle eines Grenzkontrolleurs und muss Besucher anhand dynamischer Tagesregeln überprüfen, Dokumente kontrollieren und richtige Entscheidungen treffen.
+🚧 **Border Control Terminal** — Ein terminalbasiertes Entscheidungs- und Logikspiel in C, inspiriert von Spielen wie *Papers, Please*.
 
-Das Projekt wurde im Rahmen eines Uni-Projekts vollständig in C entwickelt und legt den Fokus auf:
+In *station-gate* übernimmt der Spieler die Rolle eines Grenzkontrolleurs und muss Besucher anhand dynamischer Tagesregeln überprüfen, Dokumente kontrollieren und Entscheidungen treffen. Das Projekt wurde vollständig in **C** entwickelt und legt den Fokus auf modulare Softwarearchitektur, Speicherverwaltung und Zustandslogik.
 
-- modulare Softwarearchitektur
-- Speicherverwaltung
+## Features
+
+### Gameplay
+
+Jeden Tag gelten neue Regeln:
+
+- 📄 Dokumentpflicht
+- 🔐 Erlaubte Access-Level
+- 🚫 Waffenverbote
+- 🚨 Emergency-Mode
+- 🌙 Night-Mode
+
+Für jeden Besucher muss entschieden werden:
+
+✅ **Einreise erlauben**  
+❌ **Einreise verweigern**
+
+Eine falsche Entscheidung kann Konsequenzen haben.
+
+### Technische Schwerpunkte
+
+- Modulare Softwarearchitektur
+- Speicherverwaltung in C
 - Dateiverarbeitung
 - Zustandsverwaltung
 - Validierungslogik
-- saubere Trennung von Game Logic & UI
+- Trennung von Game Logic & UI
 
+## Motivation
 
-🎮 Gameplay
-Jeden Tag gelten neue Regeln:
-- Dokumentpflicht
-- erlaubte Access-Level
-- Waffenverbote
-- Emergency-Mode
-- Night-Mode
+Dieses Projekt entstand im Rahmen eines Uni-Projekts an der Technischen Universität Hamburg und hatte das Ziel, ein komplexeres Softwaresystem in **C** zu entwickeln.
 
+Besonderer Fokus lag auf:
 
-Für jeden Besucher musst du entscheiden:
+- sauberem Softwaredesign
+- modularer Architektur
+- Speicherverwaltung
+- Teamarbeit in einem größeren Projekt
 
-✅ Einreise erlauben
-❌ Einreise verweigern
+## 📋 Requirements
 
-Eine falsche Entscheidung kostet Leben.
+Für das Projekt werden folgende Abhängigkeiten benötigt:
 
+- **Git**
+- **C-Compiler** (z. B. GCC)
+- **Make**
 
-✨ Features
-- Dynamisches Regel- und Validierungssystem
-- Zufällig generierte Besucher
-- ASCII-basierte Dokumente & UI
-- Asset-System für Namen, Herkunft, Items & ASCII-Art
-- Statistiksystem für richtige/falsche Entscheidungen
-- Eigene Logiktests (test_logic.c)
-- Defensive Programmierung & NULL-Checks
-- Modularer Aufbau mit Header-/Source-Trennung
+## 🛠️ Installation / Getting Started
 
+Repository klonen:
 
-🔹 Modulare Architektur
-Modul	          Verantwortung
+```bash
+git clone https://github.com/DEIN-USERNAME/station-gate.git
+cd station-gate
+```
 
-game	          Hauptspielablauf
-validator	      Regelprüfung & Entscheidungen
-generator	      Besucher-Generierung
-rules	          Laden dynamischer Tagesregeln
-assets	        Laden externer Daten & ASCII-Art
-ui	            Terminaldarstellung & Eingabe
-stats	          Statistiksystem
+Projekt kompilieren:
 
+```bash
+make
+```
 
-👨‍💻 Autoren:
-Studenten der Technischen Universität Hamburg
+Spiel starten:
 
-Bennet, Micka und Yasin
+```bash
+./station-gate
+```
+
+> Unter Windows ggf. `station-gate.exe` ausführen.
+
+## ▶️ Usage
+
+### Spiel starten
+
+Nach erfolgreicher Kompilierung kann das Spiel direkt über das Terminal gestartet werden:
+
+```bash
+./station-gate
+```
+
+## 👨‍💻 Contributors
+
+Projekt der Technischen Universität Hamburg
+
+- **Bennet**
+- **Micka**
+- **Yasin**
