@@ -56,7 +56,7 @@ Für das Projekt werden folgende Abhängigkeiten benötigt:
 Repository klonen:
 
 ```bash
-git clone https://github.com/DEIN-USERNAME/station-gate.git
+git clone https://github.com/yasin-ulubas/station-gate.git
 cd station-gate
 ```
 
