@@ -4,8 +4,6 @@
 
 In *station-gate* übernimmt der Spieler die Rolle eines Grenzkontrolleurs und muss Besucher anhand dynamischer Tagesregeln überprüfen, Dokumente kontrollieren und Entscheidungen treffen. Das Projekt wurde vollständig in **C** entwickelt und legt den Fokus auf modulare Softwarearchitektur, Speicherverwaltung und Zustandslogik.
 
-## Features
-
 ## 🎮 Gameplay
 
 In **station-gate** übernimmst du die Rolle eines Grenzkontrolleurs an einem Sicherheitsterminal. Deine Aufgabe ist es, eintreffende Besucher anhand täglich wechselnder Sicherheitsvorgaben zu überprüfen und über ihre Einreise zu entscheiden.
