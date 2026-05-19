@@ -6,17 +6,36 @@ In *station-gate* übernimmt der Spieler die Rolle eines Grenzkontrolleurs und m
 
 ## Features
 
-### Gameplay
+## 🎮 Gameplay
 
-Jeden Tag gelten neue Regeln:
+In **station-gate** übernimmst du die Rolle eines Grenzkontrolleurs an einem Sicherheitsterminal. Deine Aufgabe ist es, eintreffende Besucher anhand täglich wechselnder Sicherheitsvorgaben zu überprüfen und über ihre Einreise zu entscheiden.
 
-- 📄 Dokumentpflicht
-- 🔐 Erlaubte Access-Level
-- 🚫 Waffenverbote
-- 🚨 Emergency-Mode
-- 🌙 Night-Mode
+Jeder Besucher bringt unterschiedliche Informationen und Dokumente mit. Deine Entscheidung basiert auf den **zufällig generierten Regeln des aktuellen Tages**, wodurch jede Spielrunde unterschiedlich verläuft.
 
-Für jeden Besucher muss entschieden werden:
+### 🎲 Dynamische Tagesregeln
+
+Zu Beginn jedes Tages wird zufällig vorgegebene Kombinationen auf Tagesregeln ausgewählt. Dadurch verändert sich das Gameplay kontinuierlich und Entscheidungen müssen immer wieder neu bewertet werden. Ein Tag besteht aus zehn Kontrollen. Nach sieben Tagen ist das Spiel beendet und es wird eine Statistik angezeigt.
+
+Mögliche Regeln sind:
+
+#### 📄 Dokumentpflicht
+Besucher müssen ihre Dokumente dabei haben (immer aktiviert).
+
+#### 🔐 Access-Level
+Nicht jeder Besucher besitzt die notwendige Sicherheitsfreigabe. Der angegebene Access-Level muss den aktuellen Anforderungen des jeweiligen Tages entsprechen.
+
+#### 🚫 Waffenverbot
+Besucher dürfen keine verbotenen Gegenstände oder Waffen mitführen. Verdächtige Personen müssen abgewiesen werden.
+
+#### 🚨 Emergency-Mode
+Im Ausnahmezustand gelten verschärfte Sicherheitsmaßnahmen und strengere Kontrollen.
+
+#### 🌙 Night-Mode
+Veränderte Bedingungen erschweren die Überprüfung und erhöhen den Entscheidungsdruck.
+
+### ⚖️ Entscheidungen treffen
+
+Für jeden Besucher musst du genau eine Entscheidung treffen:
 
 ✅ **Einreise erlauben**  
 ❌ **Einreise verweigern**
@@ -36,7 +55,13 @@ Eine falsche Entscheidung kann Konsequenzen haben.
 
 Dieses Projekt entstand im Rahmen eines Uni-Projekts an der Technischen Universität Hamburg und hatte das Ziel, ein komplexeres Softwaresystem in **C** zu entwickeln.
 
-Besonderer Fokus lag auf:
+Bei dem Uni-Projekts bestand die Möglichkeit, das Thema frei zu wählen. Unser Ziel war es, ein Projekt zu entwickeln, das uns persönlich interessiert und gleichzeitig die technischen Anforderungen der Veranstaltung erfüllt.
+
+Da wir alle gerne Videospiele spielen, wollten wir bewusst ein Projekt umsetzen, das einen spielerischen Charakter besitzt und die Umsetzung komplexer Logik mit einer kreativen Idee verbindet. Inspiriert von regelbasierten Entscheidungsspielen wie *Papers, Please* entstand so die Idee eines terminalbasierten Grenzkontrollspiels.
+
+Trotz des technischen Fokus auf **Speicherverwaltung, Zustandslogik, Dateiverarbeitung und modularer Architektur in C** wollten wir das Projekt bewusst etwas humorvoller und kreativer gestalten. Deshalb enthalten verschiedene Elemente des Spiels bewusst humoristische Details – darunter kreative Namen sowie Besucherherkünfte von Planeten aus dem *Star Wars*-Universum.
+
+Besonderer technischer Fokus lag auf:
 
 - sauberem Softwaredesign
 - modularer Architektur
